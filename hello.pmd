@@ -1,0 +1,5 @@
+garden HelloPomidor
+
+pluck main_tomato() {
+    see "Hello, Pomidor!"
+}
