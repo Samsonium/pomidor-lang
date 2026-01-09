@@ -43,15 +43,28 @@ alias pomidor="python3 /full/path/to/pomidor_interpreter.py"
 ### Then run any .pmd file like this:
 
 ```bash
-pomidor hello.pmd
+pomidor examples/hello_v1.pmd
 ```
 
 ### Output:
 
 ```bash
 🍅 Pomidor Language Interpreter v0.1
-Running file: hello.pmd
+Running file: examples/hello_v1.pmd
 
 Hello, Pomidor!
 
 ```
+
+## Pomidor interpreter now in GO
+
+You can try out new Pomidor interpreter written in Go using the following commands:
+
+1. Build
+    ```bash
+    cd interpreter && go build -o ../pomidor && cd ..
+    ```
+2. Run
+    ```bash
+    pomidor examples/hello_v2.pmd
+    ```
