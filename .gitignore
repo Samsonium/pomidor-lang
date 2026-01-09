@@ -1,0 +1,13 @@
+# Ignore all by default
+/*
+
+# Add directories
+!/examples
+!/interpreter
+
+# Add files
+!/.gitignore
+!/hello.pmd
+!/pomidor_interpreter.py
+!/README.md
+
