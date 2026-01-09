@@ -1,0 +1,10 @@
+# Ignore all
+/*
+
+# Add dirs
+!/internal
+
+# Add files
+!/.gitignore
+!/go.mod
+!/main.go
