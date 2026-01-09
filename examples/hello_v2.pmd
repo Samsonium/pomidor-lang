@@ -2,7 +2,7 @@
 garden HelloPomidor
 
 // "main_tomato" is an entry point pluck
-pluck main_tomato() {
+pluck main_pomidor() {
   // Use "see" command to print to stdout
   see "Hello, Pomidor!"
 }
