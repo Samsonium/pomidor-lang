@@ -1,7 +1,7 @@
 // Define garden where code executes in
 garden HelloPomidor
 
-// "main_tomato" is an entry point pluck
+// "main_pomidor" is an entry point pluck
 pluck main_pomidor() {
   // Use "see" command to print to stdout
   see "Hello, Pomidor!"
