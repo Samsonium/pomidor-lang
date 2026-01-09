@@ -62,7 +62,7 @@ You can try out new Pomidor interpreter written in Go using the following comman
 
 1. Build
     ```bash
-    cd interpreter && go build -o ../pomidor && cd ..
+    cd interpreter && go build -o ../pomidor && cd .. && chmod +x ./pomidor
     ```
 2. Run
     ```bash
